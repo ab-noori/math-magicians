@@ -131,9 +131,9 @@ Clone this repository to your desired folder:
 
 ### Deployment
 
-You can deploy this project using:
-- Free deployment services like GitHub pages.
-- Any deployment services of your choice.
+- You can deploy this project using:
+      npm run build
+      gh-pages -d build
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
