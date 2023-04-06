@@ -130,8 +130,8 @@ Clone this repository to your desired folder:
 
 
 ### Deployment
-
 - You can deploy this project using:
+
       npm run build
       gh-pages -d build
 
