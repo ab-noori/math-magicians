@@ -1,5 +1,3 @@
-// import React, { useState } from 'react';
-
 const Calculator = () => (
   <div className="calculator">
     <div className="display">0</div>
