@@ -1,34 +1,37 @@
+import React from 'react';
+import Button from './Button';
+
 const Calculator = () => (
   <div className="calculator">
     <div className="display">0</div>
     <div className="row">
-      <button type="button" className="btn clear">AC</button>
-      <button type="button" className="btn plus-minus">+/-</button>
-      <button type="button" className="btn percent">%</button>
-      <button type="button" className="btn operator">&divide;</button>
+      <Button className="clear" text="AC" />
+      <Button className="plus-minus" text="+/-" />
+      <Button className="percent" text="%" />
+      <Button className="operator" text="÷" />
     </div>
     <div className="row">
-      <button type="button" className="btn number">7</button>
-      <button type="button" className="btn number">8</button>
-      <button type="button" className="btn number">9</button>
-      <button type="button" className="btn operator">&times;</button>
+      <Button className="number" text="7" />
+      <Button className="number" text="8" />
+      <Button className="number" text="9" />
+      <Button className="operator" text="×" />
     </div>
     <div className="row">
-      <button type="button" className="btn number">4</button>
-      <button type="button" className="btn number">5</button>
-      <button type="button" className="btn number">6</button>
-      <button type="button" className="btn operator">&minus;</button>
+      <Button className="number" text="4" />
+      <Button className="number" text="5" />
+      <Button className="number" text="6" />
+      <Button className="operator" text="-" />
     </div>
     <div className="row">
-      <button type="button" className="btn number">1</button>
-      <button type="button" className="btn number">2</button>
-      <button type="button" className="btn number">3</button>
-      <button type="button" className="btn operator">+</button>
+      <Button className="number" text="1" />
+      <Button className="number" text="2" />
+      <Button className="number" text="3" />
+      <Button className="operator" text="+" />
     </div>
     <div className="row">
-      <button type="button" className="btn zero number">0</button>
-      <button type="button" className="btn decimal">.</button>
-      <button type="button" className="btn equals operator">=</button>
+      <Button className="number zero" text="0" />
+      <Button className="decimal" text="." />
+      <Button className="equals operator" text="=" />
     </div>
   </div>
 );
