@@ -18,6 +18,10 @@
   font-size: 1.5rem;
 }
 
+.quote h1 {
+  text-transform: capitalize;
+}
+
 .calculator {
   width: 90vw;
   height: 80vh;
