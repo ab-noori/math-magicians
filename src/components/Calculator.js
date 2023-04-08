@@ -1,36 +1,55 @@
-const Calculator = () => (
-  <div className="calculator">
-    <div className="display">0</div>
-    <div className="row">
-      <button type="button" className="btn clear">AC</button>
-      <button type="button" className="btn plus-minus">+/-</button>
-      <button type="button" className="btn percent">%</button>
-      <button type="button" className="btn operator">&divide;</button>
+import React, { useState } from 'react';
+import Button from './Button';
+import calculate from './logic/calculate';
+
+const Calculator = () => {
+  const [calculatorData, setCalculatorData] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+
+  const handleClick = (buttonName) => {
+    const newData = calculate(calculatorData, buttonName);
+    setCalculatorData(newData);
+  };
+
+  const displayValue = calculatorData.next || calculatorData.total || '0';
+
+  return (
+    <div className="calculator">
+      <div className="display">{displayValue}</div>
+      <div className="row">
+        <Button className="clear" text="AC" onClick={() => handleClick('AC')} />
+        <Button className="plus-minus" text="+/-" onClick={() => handleClick('+/-')} />
+        <Button className="percent" text="%" onClick={() => handleClick('%')} />
+        <Button className="operator" text="÷" onClick={() => handleClick('÷')} />
+      </div>
+      <div className="row">
+        <Button className="number" text="7" onClick={() => handleClick('7')} />
+        <Button className="number" text="8" onClick={() => handleClick('8')} />
+        <Button className="number" text="9" onClick={() => handleClick('9')} />
+        <Button className="operator" text="x" onClick={() => handleClick('x')} />
+      </div>
+      <div className="row">
+        <Button className="number" text="4" onClick={() => handleClick('4')} />
+        <Button className="number" text="5" onClick={() => handleClick('5')} />
+        <Button className="number" text="6" onClick={() => handleClick('6')} />
+        <Button className="operator" text="-" onClick={() => handleClick('-')} />
+      </div>
+      <div className="row">
+        <Button className="number" text="1" onClick={() => handleClick('1')} />
+        <Button className="number" text="2" onClick={() => handleClick('2')} />
+        <Button className="number" text="3" onClick={() => handleClick('3')} />
+        <Button className="operator" text="+" onClick={() => handleClick('+')} />
+      </div>
+      <div className="row">
+        <Button className="number zero" text="0" onClick={() => handleClick('0')} />
+        <Button className="decimal" text="." onClick={() => handleClick('.')} />
+        <Button className="equals operator" text="=" onClick={() => handleClick('=')} />
+      </div>
     </div>
-    <div className="row">
-      <button type="button" className="btn number">7</button>
-      <button type="button" className="btn number">8</button>
-      <button type="button" className="btn number">9</button>
-      <button type="button" className="btn operator">&times;</button>
-    </div>
-    <div className="row">
-      <button type="button" className="btn number">4</button>
-      <button type="button" className="btn number">5</button>
-      <button type="button" className="btn number">6</button>
-      <button type="button" className="btn operator">&minus;</button>
-    </div>
-    <div className="row">
-      <button type="button" className="btn number">1</button>
-      <button type="button" className="btn number">2</button>
-      <button type="button" className="btn number">3</button>
-      <button type="button" className="btn operator">+</button>
-    </div>
-    <div className="row">
-      <button type="button" className="btn zero number">0</button>
-      <button type="button" className="btn decimal">.</button>
-      <button type="button" className="btn equals operator">=</button>
-    </div>
-  </div>
-);
+  );
+};
 
 export default Calculator;
