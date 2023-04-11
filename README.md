@@ -26,7 +26,7 @@
 | Desktop Veiw Representation|
 |---------------------------------------|
 |<div align="center"><img src="./src/assets/desktop-shot.PNG" alt="screenshot" width="auto" height="auto"/></div>|
-|<div align="center"><img src="./src/assets/mobile-shot.PNG" alt="screenshot" width="auto" height="500"/></div>|
+|<div align="center"><img src="./src/assets/mobile-shot.PNG" alt="screenshot" width="300" height="550"/></div>|
 
 <!-- TABLE OF CONTENTS -->
 
@@ -174,7 +174,7 @@ Feel free to check the [issues page](https://github.com/ab-noori/math-magicians/
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-  I would like to thank Microverse and my coding partners, and also give credit to Traversy Media
+  I would like to thank Microverse and my coding partners, espcially Mr. `Enoch Taiwo` for reviewing my project and giving constructive feedback, and also give credit to Traversy Media
 YouTub Channel, I really learned a lot from this channel.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
