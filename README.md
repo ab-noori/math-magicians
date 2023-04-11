@@ -174,7 +174,7 @@ Feel free to check the [issues page](https://github.com/ab-noori/math-magicians/
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-  I would like to thank Microverse and my coding partners, and also give credit to Traversy Media
+  I would like to thank Microverse and my coding partners, espcially Mr. `Enoch Taiwo` for reviewing my project and giving constructive feedback, and also give credit to Traversy Media
 YouTub Channel, I really learned a lot from this channel.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
