@@ -30,7 +30,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: aquamarine;
+  background-color: rgb(127, 255, 212);
   border: 2px solid rgb(63, 62, 62);
   border-radius: 10px;
 }
