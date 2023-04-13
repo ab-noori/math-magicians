@@ -56,7 +56,7 @@
 
 # 📖 [Math Magicians] <a name="about-project"></a>
 
-> **[Math Magicians]** is a website for mathematics fans. It is a Single Page App (SPA) that allows users to make simple calculations  and read a random math-related quote.
+> **[Math Magicians]** is a website for mathematics fans. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
