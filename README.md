@@ -26,7 +26,7 @@
 | Desktop Veiw Representation|
 |---------------------------------------|
 |<div align="center"><img src="./src/assets/desktop-shot.PNG" alt="screenshot" width="auto" height="550"/></div>|
-|<div align="center"><img src="./src/assets/mobile-shot.PNG" alt="screenshot" width="300" height="550"/></div>|
+|<div align="center"><img src="./src/assets/desktop-shot2.PNG" alt="screenshot" width="auto" height="550"/></div>|
 
 <!-- TABLE OF CONTENTS -->
 
@@ -56,14 +56,17 @@
 
 # 📖 [Math Magicians] <a name="about-project"></a>
 
-> **[Math Magicians]** is a website for mathematics fans. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
+> **[Math Magicians]** is a website for mathematics fans. It is a Single Page App (SPA) that allows users to make simple calculations and read a random design-related quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 - <summary>Client</summary>
     <ul>
-      <li><a href="https://reactjs.org/">React</a></li>
+      <li><a href="https://reactjs.org/">HTML</a></li>
+      <li><a href="https://reactjs.org/">CSS</a></li>
+      <li><a href="https://reactjs.org/">JavaScript</a></li>
+      <li><a href="https://reactjs.org/">API</a></li>
     </ul>
 
 ### Key Features <a name="key-features"></a>
@@ -174,8 +177,8 @@ Feel free to check the [issues page](https://github.com/ab-noori/math-magicians/
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-  I would like to thank Microverse and my coding partners, espcially Mr. `Enoch Taiwo` for reviewing my project and giving constructive feedback, and also give credit to Traversy Media
-YouTub Channel, I really learned a lot from this channel.
+  I would like to thank Microverse and my coding partners, and Miss `Kanza Tahreem`, she has done amazing projects, I inspired from her project for this project. also I want to give credit to `https://www.youtube.com/@Nerdslesson`
+YouTub Channel, it's react tutorial is really helpfull.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
