@@ -27,6 +27,7 @@
 |---------------------------------------|
 |<div align="center"><img src="./src/assets/desktop-shot.PNG" alt="screenshot" width="auto" height="auto"/></div>|
 |<div align="center"><img src="./src/assets/desktop-shot2.PNG" alt="screenshot" width="auto" height="auto"/></div>|
+|<div align="center"><img src="./src/assets/desktop-shot3.PNG" alt="screenshot" width="auto" height="auto"/></div>|
 
 <!-- TABLE OF CONTENTS -->
 
@@ -177,8 +178,8 @@ Feel free to check the [issues page](https://github.com/ab-noori/math-magicians/
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-  I would like to thank Microverse and my coding partners, and Miss `Kanza Tahreem`, she has done amazing projects, I inspired from her project for this project. also I want to give credit to `https://www.youtube.com/@Nerdslesson`
-YouTub Channel, it's react tutorial is really helpfull.
+  I would like to thank Microverse and my coding partners, and a Micronaut, Miss [`Kanza Tahreem`](https://github.com/KanzaTahreem), she has done amazing projects, I inspired from her project for this project. also I want to give credit to [`Nerd's lesson`](https://www.youtube.com/@Nerdslesson)
+YouTub Channel, it's [`react tutorial`](https://www.youtube.com/watch?v=cd3P3yXyx30) is really helpfull.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
