@@ -9,13 +9,18 @@ function App() {
     <>
       <header>
         <nav>
+          <div className="branding">
+            <Link to="/"><h1>Math Magicians</h1></Link>
+          </div>
           <ul>
             <li>
               <Link to="/">Home</Link>
             </li>
+            <li>|</li>
             <li>
               <Link to="/calculator">Calculator</Link>
             </li>
+            <li>|</li>
             <li>
               <Link to="/quote">Quote</Link>
             </li>
@@ -30,7 +35,7 @@ function App() {
         </Routes>
       </main>
       <footer>
-        <p>&copy; 2023 Math Magicians | Made by Abdulali Noori</p>
+        <p className="copyright">&copy; 2023 Math Magicians | Developed by Abdulali Noori</p>
       </footer>
     </>
   );
