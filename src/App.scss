@@ -1,3 +1,116 @@
+body {
+  background-color: #eee1ed;
+}
+
+#root {
+  position: relative;
+}
+
+header ,
+footer {
+  width: 100%;
+  height: 9vh;
+  position: fixed;
+  background-color: #f5913e;
+}
+
+header {
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+}
+
+nav,
+main,
+.copyright {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+main {
+  height: 97vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  & .branding a {
+    text-decoration: none;
+    color: black;
+  }
+
+  & .branding a h1 {
+    white-space: nowrap;
+  }
+
+  & ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  & ul li a {
+    text-decoration: none;
+    font-size: large;
+  }
+}
+
+.home {
+  width: 100%;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: visible;
+}
+
+.intro-frame {
+  width: 90vw;
+  height: 80vh;
+  margin-top: 60vh;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  & .listItem {
+    color: #f36f04;
+  }
+}
+
+.algo-frame {
+  width: 90vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.algo-frame img {
+  width: 100%;
+}
+
+.copyright {
+  white-space: nowrap;
+}
+
 .quote {
   width: 90vw;
   height: 80vh;
@@ -65,25 +178,58 @@
   justify-content: right;
   align-items: center;
   background-color: #858694;
-  border-radius: 10px 10px 3px 3px;
+  border-radius: 8px 8px 3px 3px;
 }
 
 @media screen and (min-width: 768px) {
-  .app {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+  .quote,
+  .calculator {
+    width: 60vw;
+    height: 60vh;
+    margin: 10vh auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .quote,
+  .calculator {
+    width: 40vw;
+    height: 60vh;
+    margin: 10vh auto;
   }
 
+  .algo-frame {
+    width: 40vw;
+  }
+
+  .intro-frame {
+    width: 60vw;
+    margin-top: unset;
+  }
+
+  .home {
+    flex-direction: row;
+    gap: 8%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .quote,
   .calculator {
     width: 30vw;
     height: 60vh;
     margin: 10vh auto;
   }
 
-  .quote {
-    width: 30vw;
-    height: 60vh;
-    margin: 10vh auto;
+  .algo-frame {
+    width: 40vw;
+  }
+
+  .intro-frame {
+    width: 60vw;
+  }
+
+  .home {
+    flex-direction: row;
   }
 }
