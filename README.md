@@ -25,8 +25,8 @@
 
 | Desktop Veiw Representation|
 |---------------------------------------|
-|<div align="center"><img src="./src/assets/desktop-shot.PNG" alt="screenshot" width="auto" height="550"/></div>|
-|<div align="center"><img src="./src/assets/desktop-shot2.PNG" alt="screenshot" width="auto" height="550"/></div>|
+|<div align="center"><img src="./src/assets/desktop-shot.PNG" alt="screenshot" width="auto" height="auto"/></div>|
+|<div align="center"><img src="./src/assets/desktop-shot2.PNG" alt="screenshot" width="auto" height="auto"/></div>|
 
 <!-- TABLE OF CONTENTS -->
 
