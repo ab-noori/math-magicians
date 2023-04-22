@@ -20,7 +20,6 @@ const Quote = () => {
         setData(data[0]);
         setIsLoading(false);
       } catch (error) {
-        console.error(error);
         setIsLoading(false);
         setHasError(true);
       }
