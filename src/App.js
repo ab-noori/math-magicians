@@ -14,7 +14,7 @@ function App() {
           </div>
           <ul>
             <li>
-              <Link to="/math-magicians/">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>|</li>
             <li>
