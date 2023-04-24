@@ -10,7 +10,7 @@ function App() {
       <header>
         <nav>
           <div className="branding">
-            <Link to="/math-magicians/"><h1>Math Magicians</h1></Link>
+            <Link to="/"><h1>Math Magicians</h1></Link>
           </div>
           <ul>
             <li>
@@ -18,20 +18,20 @@ function App() {
             </li>
             <li>|</li>
             <li>
-              <Link to="/math-magicians/calculator">Calculator</Link>
+              <Link to="/calculator">Calculator</Link>
             </li>
             <li>|</li>
             <li>
-              <Link to="/math-magicians/quote">Quote</Link>
+              <Link to="/quote">Quote</Link>
             </li>
           </ul>
         </nav>
       </header>
       <main>
         <Routes>
-          <Route path="/math-magicians/" element={<Home />} />
-          <Route path="/math-magicians/quote" element={<Quote />} />
-          <Route path="/math-magicians/calculator" element={<Calculator />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/quote" element={<Quote />} />
+          <Route path="/calculator" element={<Calculator />} />
         </Routes>
       </main>
       <footer>
