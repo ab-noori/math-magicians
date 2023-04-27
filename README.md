@@ -82,7 +82,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> - [Live Demo Link](https://ab-noori.github.io/math-magicians/)
+> - [Live Demo on Render](https://math-magicians-ab.onrender.com)
+> - [Live Demo on Gh-pages](https://ab-noori.github.io/math-magicians/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
